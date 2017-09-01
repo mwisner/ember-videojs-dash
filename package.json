@@ -1,7 +1,7 @@
 {
   "name": "ember-videojs-dash",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember + https://github.com/videojs/videojs-contrib-dash",
   "keywords": [
     "ember-addon"
   ],

@@ -1,26 +1,10 @@
 # ember-videojs-dash
+[![Build Status](https://travis-ci.org/mwisner/ember-videojs-dash.svg?branch=master)](https://travis-ci.org/mwisner/ember-videojs-dash)
 
-This README outlines the details of collaborating on this Ember addon.
+Ember + https://github.com/videojs/videojs-contrib-dash
 
-## Installation
+# Installing
+```bash
+ember install ember-videojs-dash
+```
 
-* `git clone <repository-url>` this repository
-* `cd ember-videojs-dash`
-* `npm install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
