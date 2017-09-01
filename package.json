@@ -1,6 +1,6 @@
 {
   "name": "ember-videojs-dash",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Ember + https://github.com/videojs/videojs-contrib-dash",
   "keywords": [
     "ember-addon"
