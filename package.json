@@ -18,7 +18,8 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.3.0"
+    "ember-cli-babel": "^6.3.0",
+    "ember-cli-videojs-shim": "https://github.com/mwisner/ember-cli-videojs-shim.git#feat/npm"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
