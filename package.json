@@ -18,8 +18,12 @@
     "test": "ember try:each"
   },
   "dependencies": {
+    "broccoli-funnel": "^2.0.1",
+    "broccoli-merge-trees": "^2.0.0",
+    "dashjs": "^2.5.0",
     "ember-cli-babel": "^6.3.0",
-    "ember-cli-videojs-shim": "https://github.com/mwisner/ember-cli-videojs-shim.git#feat/npm"
+    "ember-cli-videojs-shim": "https://github.com/mwisner/ember-cli-videojs-shim.git#feat/npm",
+    "videojs-contrib-dash": "^2.9.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
