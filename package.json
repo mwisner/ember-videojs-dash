@@ -6,7 +6,7 @@
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Matt Wisner",
   "directories": {
     "doc": "doc",
     "test": "tests"
