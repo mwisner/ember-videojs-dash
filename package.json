@@ -15,7 +15,7 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember try:each && ember fastboot:test"
+    "test": "ember try:each"
   },
   "dependencies": {
     "broccoli-funnel": "^2.0.1",
