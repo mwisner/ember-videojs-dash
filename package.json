@@ -23,7 +23,7 @@
     "broccoli-stew": "^1.5.0",
     "dashjs": "^2.5.0",
     "ember-cli-babel": "^6.3.0",
-    "ember-cli-videojs-shim": "0.1.0",
+    "ember-cli-videojs-shim": "mwisner/ember-cli-videojs-shim#bugfix/assets",
     "videojs-contrib-dash": "^2.9.1"
   },
   "devDependencies": {
