@@ -11,13 +11,16 @@ cache:
     - node_modules
 
 env:
-  - EMBER_TRY_SCENARIO=ember-lts-2.4
-  - EMBER_TRY_SCENARIO=ember-lts-2.8
-  - EMBER_TRY_SCENARIO=ember-release
-  - EMBER_TRY_SCENARIO=ember-beta
-  - EMBER_TRY_SCENARIO=ember-canary
-  - EMBER_TRY_SCENARIO=ember-default
-  #- EMBER_TRY_SCENARIO=fastboot-addon-tests
+  global:
+    - JOBS=1 # https://github.com/emberjs/ember.js/issues/15641
+  matrix:
+    - EMBER_TRY_SCENARIO=ember-lts-2.4
+    - EMBER_TRY_SCENARIO=ember-lts-2.8
+    - EMBER_TRY_SCENARIO=ember-release
+    - EMBER_TRY_SCENARIO=ember-beta
+    - EMBER_TRY_SCENARIO=ember-canary
+    - EMBER_TRY_SCENARIO=ember-default
+    #- EMBER_TRY_SCENARIO=fastboot-addon-tests
 
 matrix:
   fast_finish: true
